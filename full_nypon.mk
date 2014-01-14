@@ -31,7 +31,7 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := kumquat
+PRODUCT_RELEASE_NAME := Nypon
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
